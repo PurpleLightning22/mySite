@@ -4,22 +4,20 @@
       <img :src="img" alt="" />
     </div>
     <div class="home__text">
-      <span>HI THERE!</span>
-      <h2>I'm <span>{{ text }}</span></h2>
+      <span>Привет!</span>
+      <h2>Я <span>{{ text }}</span></h2>
       <p>
-        I'm a Freelance UI/UX Designer and Developer based in London, England. I
-        strives to build immersive and beautiful web applications through
-        carefully crafted code and user-centric design.
+        Я Фрилансер и Веб разработчик.  Я стремлюсь создавать захватывающие и красивые веб сайты и приложении , тщательно продуманный код и удобста для пользователю при использований моих веб приложении.
       </p>
 
       <div class="home__links">
         <router-link class="btn-hover_gray" to="/about">
           <img src="../assets/images/profile-icon.svg" alt="" />
-          <span>More about me</span>
+          <span>Больше обо мне</span>
         </router-link>
         <router-link class="btn-hover_blue" to="/portfolio">
           <img src="../assets/images/bag.svg" alt="" />
-          <span>Portfolio</span></router-link>
+          <span>Портфолио</span></router-link>
       </div>
     </div>
   </div>
@@ -29,8 +27,8 @@ import { mapState } from 'vuex'
 export default {
   data() {
     return {
-      text: 'Alladdin Kurbanbaev',
-      textArr: ['Alladdin Kurbanbaev', 'a freelancer', 'a web developer'],
+      text: 'Алладдин Курбанбаев',
+      textArr: ['Алладдин Курбанбаев', 'Фрилансер', 'Веб разработчик'],
       bool: true,
       time: 100
     }

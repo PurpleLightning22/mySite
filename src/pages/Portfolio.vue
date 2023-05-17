@@ -2,10 +2,8 @@
   <section class="portfolio">
     <div class="container portfolio__content">
       <div class="titles">
-        <h1>MY <span>PORTFOLIO</span></h1>
-        <p>
-          A FEW RECENT DESIGN AND CODING PROJECTS. WANT TO SEE MORE? EMAIL ME.
-        </p>
+        <h1>Мои <span>Портфолио</span></h1>
+        <p>Хотите увидеть мои работы? Переходите по картинкам ниже!</p>
       </div>
       <div class="portfolio__cards cards" v-if="repos">
         <a :href="rep.html_url" class="cards__item" v-for="rep in repos" :key="rep">

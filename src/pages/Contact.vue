@@ -1,9 +1,9 @@
 <template>
   <div class="contact">
     <div class="titles">
-      <h1>GET <span>IN TOUCH</span></h1>
+      <h1>СВЯЗАТЬСЯ <span>Со мной</span></h1>
       <p>
-        I’M ALWAYS OPEN TO DISCUSSING PRODUCT DESIGN WORK OR PARTNERSHIPS.
+        Я ВСЕГДА ОТКРЫТ ДЛЯ ОБСУЖДЕНИЯ ИЛИ ДЛЯ ПАРТНЕРСТВА.
       </p>
     </div>
     <div class="container contact__content">
@@ -50,7 +50,7 @@
         </label>
         <button class="btn-hover_gray" to="/portfolio">
           <img src="../assets/images/bag.svg" alt="" />
-          <span>Portfolio</span></button>
+          <span>Портфолио</span></button>
       </form>
     </div>
   </div>

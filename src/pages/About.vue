@@ -2,8 +2,8 @@
   <section class="about">
     <div class="container about__content">
       <div class="titles">
-        <h1>ABOUT <span>ME</span></h1>
-        <p>I DESIGN AND CODE BEAUTIFUL THINGS, AND I LOVE WHAT I DO.</p>
+        <h1>Обо <span>Мне</span></h1>
+        <p>Я проектирую  и кодирую красивые вещи , и я люблю то, что делаю</p>
       </div>
       <div class="about-me">
         <div class="about-me__img">
@@ -30,7 +30,7 @@
         </div>
       </div>
       <div class="skills">
-        <h3>SKILLS</h3>
+        <h3>СКИЛЫ</h3>
         <div class="skills__block">
           <div class="skills__item" v-for="skill in skills" :key="skill.idx">
             <p>{{ skill.name }}</p>
