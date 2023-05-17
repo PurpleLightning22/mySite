@@ -2,7 +2,7 @@
   <section class="portfolio">
     <div class="container portfolio__content">
       <div class="titles">
-        <h1>Мои <span>Портфолио</span></h1>
+        <h1>Мое <span>Портфолио</span></h1>
         <p>Хотите увидеть мои работы? Переходите по картинкам ниже!</p>
       </div>
       <div class="portfolio__cards cards" v-if="repos">
