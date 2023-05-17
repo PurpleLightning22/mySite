@@ -142,7 +142,7 @@
   }
 
   .home {
-    padding: 0px 15px;
+    padding: 0px 15px 100px 15px;
 
     &__links {
       flex-direction: column;
@@ -173,12 +173,7 @@
 
 @media(max-width:500px) {
 
-  .home,
-  .about,
-  .portfolio,
-  .contact {
-    padding: 20px 15px;
-  }
+
 
   .skills {
     &__block {
@@ -206,12 +201,7 @@
 
 @media(max-width:400px) {
 
-  .home,
-  .about,
-  .portfolio,
-  .contact {
-    padding: 20px 0px;
-  }
+
 
   .home {
     &__links {
