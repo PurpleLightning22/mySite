@@ -53,7 +53,6 @@ export default {
         { name: 'VUEX', high: 60 },
         { name: 'scss', high: 70 },
         { name: 'CSS', high: 75 },
-        { name: 'JQUERY', high: 65 },
         { name: 'PHOTOSHOP', high: 80 },
       ]
     }
