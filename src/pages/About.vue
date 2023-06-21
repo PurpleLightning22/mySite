@@ -11,8 +11,8 @@
         </div>
         <div class="about-me__text">
           <div class="about-me__bio">
-            <p>Фамилия <span>Алладдин</span></p>
-            <p>Имя <span>Курбанбаев</span></p>
+            <p>Фамилия <span>Курбанбаев</span></p>
+            <p>Имя <span>Алладдин</span></p>
             <p>День рождения <span>22 декабрь 1999</span></p>
             <p>Национальность <span>Каракалпак</span></p>
             <p>Опыт <span>3 года</span></p>
